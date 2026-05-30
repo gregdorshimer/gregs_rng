@@ -16,6 +16,8 @@ Import and Use:
 
 ```python
 from gregs_rng import Random
-```
 
-> TODO example
+g = lcg(42)
+print(next(g))
+print(next(g))
+```
