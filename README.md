@@ -12,14 +12,10 @@ Install:
 pip install gregs_rng
 ```
 
-Import:
-
-```python
-from gregs_rng.rng import Random
-```
-
-or
+Import and Use:
 
 ```python
 from gregs_rng import Random
 ```
+
+> TODO example
