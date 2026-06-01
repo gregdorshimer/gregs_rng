@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+# Name used to install with pip:
+name = "gregs_rng"
+
+# Current version of this package:
+version = "0.1.0"
+
+# Description published on PyPI:
+description = "Contains implementations of Random Number Generators"
+
+readme = "README.md"
+
+requires-python = ">=3.10.12"
+
+authors = [
+    {name = "Greg Dorshimer"}
+]
+
+# Keywords for help finding the package:
+keywords = ["random", "rng", "statistics", "linear congruential generator"]
+
+# PyPI Classifiers describing the package:
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/gregdorshimer/gregs_rng"
+Issues = "https://github.com/gregdorshimer/gregs_rng/issues"
+
+
+[tool.setuptools.packages.find]
+# define /src/ as the root of importable packages
+where = ["src"]
