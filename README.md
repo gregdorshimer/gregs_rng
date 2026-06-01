@@ -3,6 +3,7 @@
 A package for generating random numbers using various methods. The current version only supports the Liner Congruential Method.
 
 Choice of parameters for LCG:
+
 Donald E. Knuth (1981). The Art of Computer Programming, Volume 2: Seminumerical Algorithms (2nd ed.). Addison-Wesley.
 https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming
 
