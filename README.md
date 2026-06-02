@@ -1,6 +1,6 @@
 # gregs_rng
 
-A package for generating random numbers using various methods. The current version only supports the Liner Congruential Method.
+A package for generating random numbers using various methods. The current version only supports the Linear Congruential Method.
 
 Choice of parameters for LCG:
 
