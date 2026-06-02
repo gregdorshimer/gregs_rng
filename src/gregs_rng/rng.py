@@ -16,7 +16,7 @@ def lcg(seed: int, a: int = 1664525, c: int = 1013904223, m: int = 2**32) -> Gen
     if not isinstance(c, int) or c < 0:
         raise ValueError('Bad inputs to `lcg`: `c` must be non-negative.')
 
-    # enforce `m` larger than 1, 
+    # enforce `m` greater than 1, 
     if not isinstance(m, int) or m < 2:
         raise ValueError('Bad inputs to `lcg`: `m` must be greater than 1.')
 
