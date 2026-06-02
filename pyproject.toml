@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=64.0"]
+requires = ["setuptools>=64.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 
@@ -7,8 +7,8 @@ build-backend = "setuptools.build_meta"
 # Name used to install with pip:
 name = "gregs_rng"
 
-# Current version of this package:
-version = "0.1.0"
+# Current version of this package pulled from git tag by setuptools-scm:
+dynamic = ["version"]
 
 # Description published on PyPI:
 description = "Contains implementations of Random Number Generators"
@@ -38,3 +38,6 @@ Issues = "https://github.com/gregdorshimer/gregs_rng/issues"
 [tool.setuptools.packages.find]
 # define /src/ as the root of importable packages
 where = ["src"]
+
+
+[tool.setuptools_scm]
