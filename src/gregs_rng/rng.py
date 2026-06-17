@@ -23,3 +23,6 @@ def lcg(seed: int, a: int = 1664525, c: int = 1013904223, m: int = 2**32) -> Gen
     while True:
         seed = (a * seed + c) % m
         yield seed / m
+
+
+def 
