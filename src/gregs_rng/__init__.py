@@ -1,4 +1,4 @@
-from .rng import lcg
+from .rng import lcg, mtg
 """
 the above allows importing directly using:
 
